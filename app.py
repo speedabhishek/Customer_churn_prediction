@@ -22,7 +22,7 @@ else:
     model = model_data
 
 if model is None:
-    raise ValueError("❌ Could not find a valid model inside the pickle file.")
+    raise ValueError("❌ Could not find a valid model inside the pickle files.")
 
 # Load encoders
 with open("encoder.pkl", "rb") as f:
